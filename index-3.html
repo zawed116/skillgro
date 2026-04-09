@@ -216,32 +216,46 @@
                                     </ul>
                                 </div>
                                 <div class="tgmenu__action tgmenu__action-three">
-                                    <ul class="list-wrap">
-                                        <li class="header-search">
-                                            <a href="javascript:void(0)" class="search-open-btn">
-                                                <i class="flaticon-search"></i>
-                                            </a>
-                                        </li>
-                                        <li class="wishlist-icon">
-                                            <a href="cart.html" class="cart-count">
-                                                <img src="assets/img/icons/heart.html" class="injectable" alt="img">
-                                                <span class="wishlist-count">0</span>
-                                            </a>
-                                        </li>
-                                        <li class="mini-cart-icon">
-                                            <a href="cart.html" class="cart-count">
-                                                <img src="assets/img/icons/cart.html" class="injectable" alt="img">
-                                                <span class="mini-cart-count">0</span>
-                                            </a>
-                                        </li>
-                                        <li class="header-btn">
-                                            <a href="login.html" class="btn arrow-btn">Apply Now <img src="assets/img/icons/right_arrow.html" alt="img" class="injectable"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+    <ul class="list-wrap">
+
+        <!-- SEARCH -->
+        <li class="header-search">
+            <a href="javascript:void(0)" onclick="openSearch()">
+                🔍
+            </a>
+        </li>
+
+        <!-- WISHLIST -->
+        <li class="wishlist-icon">
+            <a href="cart.html" class="cart-count">
+                <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" width="20">
+                <span class="wishlist-count">0</span>
+            </a>
+        </li>
+
+        <!-- CART -->
+        <li class="mini-cart-icon">
+            <a href="cart.html" class="cart-count">
+                <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="20">
+                <span class="mini-cart-count">0</span>
+            </a>
+        </li>
+
+        <!-- BUTTON -->
+        <li class="header-btn">
+            <a href="login.html" class="btn arrow-btn">
+                Apply Now 
+                <img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" width="14">
+            </a>
+        </li>
+
+    </ul>
+</div>
                                 <div class="mobile-login-btn">
-                                    <a href="login.html"><img src="assets/img/icons/user.html" alt="" class="injectable"></a>
-                                </div>
+    <a href="login.html">
+        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" width="22" alt="user">
+    </a>
+</div>
                                 <div class="mobile-nav-toggler"><i class="tg-flaticon-menu-1"></i></div>
                             </nav>
                         </div>
@@ -320,101 +334,216 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
     <!-- main-area -->
     <main class="main-area fix">
 
         <!-- banner-area -->
-        <section class="banner-area banner-bg-three tg-motion-effects" data-background="assets/img/banner/h3_hero_bg.html">
-            <div class="container">
-                <div class="row justify-content-between align-items-start">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="banner__content-three">
-                            <span class="sub-title" data-aos="fade-right" data-aos-delay="200">FOR A BETTER FUTURE</span>
-                            <h2 class="title" data-aos="fade-right" data-aos-delay="400">Empowering Minds Inspiring <span>Futures</span></h2>
-                            <p data-aos="fade-right" data-aos-delay="600">Every teaching and learning journey is unique Follwoing We'll help guide your way.</p>
-                            <div class="banner__btn-wrap" data-aos="fade-right" data-aos-delay="800">
-                                <a href="courses.html" class="btn arrow-btn">Find Your Course <img src="assets/img/icons/right_arrow.html" alt="img" class="injectable"></a>
-                            </div>
-                            <div class="shape">
-                                <img src="assets/img/banner/h3_hero_shape01.html" alt="shape" data-aos="fade-right" data-aos-delay="1000">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="banner__images-three">
-                            <img src="assets/img/banner/h3_hero_img.html" alt="img" class="main-img">
-                            <div class="shape big-shape" data-aos="fade-up" data-aos-delay="800">
-                                <img src="assets/img/banner/h3_hero_img02.html" alt="shape" class="tg-motion-effects1">
-                            </div>
-                            <div class="shape__wrap">
-                                <img src="assets/img/banner/h3_hero_shape02.html" alt="shape" data-aos="fade-down-right" data-aos-delay="400">
-                                <img src="assets/img/banner/h3_hero_shape03.html" alt="shape" data-aos="fade-down-left" data-aos-delay="400">
-                            </div>
-                            <div class="about__enrolled" data-aos="fade-right" data-aos-delay="900" >
-                                <p class="title"><span>36K+</span> Enrolled Students</p>
-                                <img src="assets/img/others/student_grp.html" alt="img">
-                            </div>
-                        </div>
-                    </div>
+       <section class="banner-area banner-bg-three" style="padding:80px 0; background:linear-gradient(135deg,#eef2ff,#f8fbff);">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+
+```
+        <!-- LEFT CONTENT -->
+        <div class="col-xl-5 col-lg-6">
+            <div class="banner__content-three">
+                <span class="sub-title">FOR A BETTER FUTURE</span>
+
+                <h2 class="title">
+                    Empowering Minds Inspiring <span style="color:#ff6b00;">Futures</span>
+                </h2>
+
+                <p>
+                    Every teaching and learning journey is unique. We help guide your way.
+                </p>
+
+                <div class="banner__btn-wrap">
+                    <a href="#" class="btn banner-btn">
+                        Find Your Course →
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="col-lg-6">
+            <div class="banner__images-three">
+
+                <!-- MAIN IMAGE -->
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80"
+                     class="main-img">
+
+                <!-- SMALL FLOAT IMAGE -->
+                <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=300&q=80"
+                     class="small-img">
+
+                <!-- STUDENT BOX -->
+                <div class="about__enrolled">
+                    <p><strong>36K+</strong> Students</p>
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg">
+                    <img src="https://randomuser.me/api/portraits/men/55.jpg">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+```
+
+</section>
+
         <!-- banner-area-end -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- features-area -->
-        <section class="features__area-four section-pb-90">
-            <div class="container">
-                <div class="features__item-wrap-two">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                                    <img src="assets/img/icons/h3_features_icon01.html" class="injectable" alt="">
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Scholarship Facility</h2>
-                                    <p>Eestuidar University we prepare you to launch your.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                                    <img src="assets/img/icons/h3_features_icon02.html" class="injectable" alt="">
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Learn From Experts</h2>
-                                    <p>Eestuidar University we prepare you to launch your.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                                    <img src="assets/img/icons/h3_features_icon03.html" class="injectable" alt="">
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Graduation Courses</h2>
-                                    <p>Eestuidar University we prepare you to launch your.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="features__item-three">
-                                <div class="features__icon-three">
-                                    <img src="assets/img/icons/h3_features_icon04.html" class="injectable" alt="">
-                                </div>
-                                <div class="features__content-three">
-                                    <h2 class="title">Certificate Program</h2>
-                                    <p>Eestuidar University we prepare you to launch your.</p>
-                                </div>
-                            </div>
-                        </div>
+       <section class="features__area-four section-pb-90" style="padding:80px 0;">
+    <div class="container">
+        <div class="features__item-wrap-two">
+            <div class="row justify-content-center">
+
+```
+            <!-- ITEM 1 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="features__item-three" style="text-align:center; padding:20px;">
+                    <div class="features__icon-three">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" width="70">
+                    </div>
+                    <div class="features__content-three">
+                        <h4>Scholarship Facility</h4>
+                        <p>We help students grow with financial support.</p>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <!-- ITEM 2 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="features__item-three" style="text-align:center; padding:20px;">
+                    <div class="features__icon-three">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" width="70">
+                    </div>
+                    <div class="features__content-three">
+                        <h4>Learn From Experts</h4>
+                        <p>Get guidance from industry professionals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="features__item-three" style="text-align:center; padding:20px;">
+                    <div class="features__icon-three">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png" width="70">
+                    </div>
+                    <div class="features__content-three">
+                        <h4>Graduation Courses</h4>
+                        <p>Wide range of certified academic programs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ITEM 4 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="features__item-three" style="text-align:center; padding:20px;">
+                    <div class="features__icon-three">
+                        <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" width="70">
+                    </div>
+                    <div class="features__content-three">
+                        <h4>Certificate Program</h4>
+                        <p>Get certified and boost your career.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+```
+
+</section>
+
         <!-- features-area-end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- ABOUT AREA -->
 <section class="about-area-four" style="padding:80px 0;">
     <div class="container">
@@ -1167,6 +1296,7 @@ style="background:url('https://images.unsplash.com/photo-1523240795612-9a054b0db
     <script>
         SVGInject(document.querySelectorAll("img.injectable"));
     </script>
+    
 </body>
 
 
